@@ -17,7 +17,7 @@ public class FindDuplicateTest {
 
     @Test
     public void printRepeatingTestError(){
-        List<Integer> list = Arrays.asList(4,5,3,2,5,6,7,8,7,12,14,21,9,4);
+        List<Integer> list = Arrays.asList(4,5,3,2,6,7,8,12,14,21,9);
         List<Integer> expectValue = Arrays.asList(5,7);
         List<Integer> actualValue = findDuplicate.printRepeating(list);
         Assert.assertArrayEquals(new List[]{expectValue}, new List[]{actualValue});

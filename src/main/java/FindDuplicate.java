@@ -16,6 +16,10 @@ public class FindDuplicate {
                 System.out.println("Duplicate number is: "+number);
             }
         }
+
+        if (list.size() == 0){
+            System.err.println("*** This list has not the duplicate number ***");
+        }
         return list;
     }
 }
